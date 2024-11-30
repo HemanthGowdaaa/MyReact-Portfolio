@@ -1,0 +1,123 @@
+
+
+@font-face {
+    font-family: 'Agustina Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Agustina Regular'), url('/Users/hemanth/Desktop/react-portfolio/src/assets/fonts/agustina-webfont/Agustina.woff') format('woff');
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+
+.leftText {
+  font-family: "Tenor Sans", sans-serif;
+}
+.htxt{
+  font-family:'Agustina Regular';
+}
+
+
+.footer-main {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: "relative";
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  flex-direction: row;
+  
+  @media (max-width:780px) {
+    .footer-main {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center content */
+    }
+    .leftText,
+.footer-text,
+.footer-logo {
+  margin: 10px 0; /* Adds spacing between the stacked items */
+  text-align: center; /* Centers text */
+}
+
+.footer-logo {
+  justify-content: center; /* Centers the icons */
+}
+  }
+  @media (max-width:480px) {
+    flex-direction: column;
+    
+  }
+ 
+}
+
+
+.footer-text {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Google Sans Regular", sans-serif; /* Fallback font in case custom font fails */
+}
+
+.theme-text {
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.theme-text p {
+  margin: 0;
+}
+
+.logo {
+  display: block;
+  float: left;
+  font-size: 2.15rem;
+  text-decoration: none;
+  margin-top: 10px;
+  line-height: normal;
+}
+
+.logo-name {
+  font-family: "Agustina Regular", sans-serif; /* Fallback font */
+  font-weight: bold;
+  padding: 0 10px;
+  color: #3d312c;
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+.footer-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content */
+}
+
+.leftText,
+.footer-text,
+.footer-logo {
+  margin: 10px 0; /* Adds spacing between the stacked items */
+  text-align: center; /* Centers text */
+}
+
+.footer-logo {
+  justify-content: center; /* Centers the icons */
+}
+}

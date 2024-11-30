@@ -1,0 +1,205 @@
+/* .projectPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.projectPage-header {
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.projectPage-header > h1 {
+    font-size: 4rem;
+    font-family: var(--primaryFont);
+}
+
+.projectPage-container {
+    padding: 3rem 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.projectPage-search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-container {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.project-grid {
+    display: flex;
+    gap: 4rem; 
+}
+
+@media (min-width: 992px) and (max-width: 1380px) {
+
+}
+
+@media screen and (max-width: 992px) {
+    .projectPage-header {
+        height: 25vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-grid {
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 702px) {
+    .project-grid {
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .projectPage-header h1 {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .projectPage-header {
+        height: 20vh;
+    }
+    .projectPage-header h1 {
+        font-size: 2.5rem;
+    }
+} */
+
+
+
+.projectPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.projectPage-header {
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.projectPage-header > h1 {
+    font-size: 4rem;
+    font-family: var(--primaryFont);
+}
+
+.projectPage-container {
+    padding: 3rem 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.projectPage-search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-container {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 2rem; /* Reduced gap to fit three items better */
+    justify-content: center; /* Center the items */
+}
+
+.project-card {
+    flex-basis: calc(33.33% - 2rem); /* Adjust width for three items per row with gaps */
+    max-width: calc(33.33% - 2rem); /* Ensure cards don't grow too large */
+    background-color: #f9f9f9; /* Example background color */
+    border: 1px solid #ccc; /* Example border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 1.5rem; /* Padding inside the card */
+    transition: transform 0.2s ease; /* Transition for hover effect */
+}
+
+/* Optional: Hover effect for project cards */
+.project-card:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+}
+
+/* Media Queries */
+@media (min-width: 992px) and (max-width: 1380px) {
+    .project-card {
+        flex-basis: calc(33.33% - 2rem);
+        max-width: calc(33.33% - 2rem);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .projectPage-header {
+        height: 25vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-grid {
+        gap: 2rem; /* Adjust gap if necessary */
+    }
+
+    .project-card {
+        flex-basis: calc(50% - 2rem); /* Change to 2 cards per row on smaller screens */
+        max-width: calc(50% - 2rem);
+    }
+}
+
+@media screen and (max-width: 702px) {
+    .project-grid {
+        gap: 1.5rem;
+    }
+
+    .project-card {
+        flex-basis: calc(100% - 1.5rem); /* Full width on very small screens */
+        max-width: calc(100% - 1.5rem);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .projectPage-header h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .projectPage-header {
+        height: 20vh;
+    }
+    .projectPage-header h1 {
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,446 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+.contact-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3d7d6;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .header {
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 3.75rem;
+    font-weight: bold;
+    color: #3d312c;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    background-color: #f4f4f9;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 75%;
+    max-width: 900px;
+    height: 75%;
+    max-height: 900px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+  
+  .contact-info {
+    flex: 1;
+    padding: 3rem;
+    align-items: center;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-item .icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+  }
+  
+  .contact-item h2 {
+    margin: 0;
+    color: #3d312c;
+    font-size: 2rem;
+  }
+  
+  .contact-item p,
+  .contact-item a {
+    margin: 0;
+    color: #4c3c94;
+    font-size: 1.1rem;
+  }
+  
+  .contact-item a {
+    text-decoration: none;
+  }
+  
+  .contact-alignment {
+    align-items: center;
+    font-size: medium;
+  }
+  
+  h2{
+    text-align: left;
+  }
+
+  .contact-body{
+    margin-top: 0%;
+    padding-top: 0%;
+  }
+
+
+  .main-button {
+    justify-content: center;
+    background-color: #3d312c;
+    border: solid 1px #3d312c;
+    color: white;
+    font-weight: 500;
+    line-height: 1.1;
+    width: max-content;
+    padding: 13px 22px;
+    margin-right: 0px;
+    text-decoration: none;
+   
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Google Sans Regular";
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    align-items: center;
+    align-self: center;
+  }
+  .a{
+    color: #e3d7d6;
+    background-color: #3d312c;
+    border: 1px solid #3d312c;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+
+    
+  } 
+ */
+
+
+
+/* from here*/
+
+
+
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+.button-center{
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 35%;
+}
+
+a{
+  text-decoration: none;
+}
+ .contact-body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #e3d7d6;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .header {
+     font-family: "Tenor Sans", sans-serif;
+     font-size: 3.75rem;
+     font-weight: bold;
+     color: #3d312c;
+     margin-bottom: 30px;
+     margin-top: 5px;
+ }
+ 
+ .contact-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 3rem;
+     background-color: #f4f4f9;
+     border-radius: 15px;
+     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+     width: 75%;
+     max-width: 900px;
+     height: 75%;
+     max-height: 900px;
+     margin: 0 20px;
+     margin-bottom: 50px;
+ }
+ 
+ .contact-info {
+     flex: 1;
+     padding: 3rem;
+     align-items: center;
+     
+ }
+ 
+ .contact-item {
+     display: flex;
+     align-items: center;
+     margin-bottom: 2rem;
+ }
+ 
+ .contact-item .icon {
+     width: 50px;
+     height: 50px;
+     margin-right: 1rem;
+ }
+ 
+ .contact-item h2 {
+    font-family: "Google Sans Regular";
+     margin: 0;
+     color: #3d312c;
+     font-size: 2rem;
+ }
+ 
+ .contact-item p,
+ .contact-item a {
+     margin: 0;
+     color: #4c3c94;
+     font-size: 1.1rem;
+ }
+
+ 
+ .contact-item a {
+     text-decoration: none;
+ }
+ 
+ h2 {
+  font-family: "Google Sans Regular";
+     text-align: left;
+ }
+ 
+ .main-button {
+     background-color: #3d312c;
+     border: solid 1px #3d312c;
+     color: white;
+     font-weight: 500;
+     line-height: 1.1;
+     padding: 13px 22px;
+     border-radius: 6px;
+     text-align: center;
+     font-size: 18px;
+     cursor: pointer;
+     letter-spacing: 2px;
+     display: block;
+     width: 80px;
+    
+     align-self: center;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .a {
+     color: #e3d7d6;
+     background-color: #3d312c;
+     border: 1px solid #3d312c;
+     text-decoration: none;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+
+ @media (max-width: 768px) {
+     .contact-container {
+         flex-direction: column;
+         padding: 2rem;
+         width: 90%; 
+         margin: 0 auto; 
+         margin-bottom: 50px; 
+         margin-bottom: 50px;
+         margin-left: 20px;
+         margin-right: 20px;
+     }
+ 
+     .header {
+         font-size: 3rem; 
+     }
+ 
+     .contact-item h2 {
+      font-family: "Google Sans Regular";
+         font-size: 1.75rem;
+     }
+ 
+     .contact-item p,
+     .contact-item a {
+         font-size: 1rem;
+     }
+ }
+ 
+ @media (max-width: 480px) {
+     .contact-container {
+         padding: 1.5rem;
+         width: 90%; 
+         margin: 0 20px; 
+         margin: 0 25px; 
+         margin-bottom: 50px;
+         margin-left: 20px;
+         margin-right: 20px;
+         
+     }
+ 
+     .header {
+         font-size: 2.5rem;
+     }
+ }
+ 
+
+  /* to here*/
+
+ /* Feed back form style */
+
+
+ /* Background styling for the entire form section */
+
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  padding: 2.5rem;
+  background-color: #ffffff; /* white box */
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  margin: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Header styling */
+form h2 {
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #ffffff; /* dark coffee color */
+  font-weight: bold;
+}
+
+/* Styling for labels and general text */
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #3d312c; /* dark coffee color */
+}
+
+/* Styling for input fields and textarea */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 1rem;
+  border: 1px solid #b89b82;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #f9f4f0;
+  color: #5a3d2b;
+  transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+  border-color: #a87b5d;
+  outline: none;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Styling for submit button */
+form input[type="submit"] {
+  width: 50%;
+  padding: 12px;
+  background-color: #3d312c;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #3d312c;
+}
+
+form input[type="submit"]:active {
+  transform: scale(0.98);
+}
+.formAlign{
+  align-items: center;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  form {
+    padding: 2rem;
+    width: 90%;
+  }
+
+  /* form input[type="submit"] {
+    width: 70%;
+  } */
+}
+
+@media (max-width: 480px) {
+  form {
+    padding: 2rem;
+  }
+}
+.feedback_image{
+    height: 25%;
+    width: 60%;
+    align-items: center;
+    margin-left: 10%;
+}
+
+
+
+.main-button-resume {
+  background-color: #3d312c; /* Dark background color */
+  border: none; /* No border */
+  border-radius: 6px; /* Rounded corners */
+  padding: 15px 25px; /* Vertical and horizontal padding */
+  text-align: center; /* Center text */
+  font-size: 18px; /* Font size */
+  color: #e3d7d6; /* Light text color */
+  font-weight: bold; /* Bold text */
+  letter-spacing: 1px; /* Letter spacing */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s, transform 0.3s; /* Transition for hover effects */
+  display: inline-block; /* Inline-block for better alignment */
+  text-decoration: none; /* Remove underline */
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .main-button-resume {
+    width: 100%; /* Full width on smaller screens */
+    font-size: 16px; /* Slightly smaller font for mobile */
+  }
+}

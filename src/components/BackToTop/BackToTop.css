@@ -1,0 +1,74 @@
+/* BackToTop.css
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+  }
+  
+  .back-to-top-button {
+    padding: 10px 15px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  
+  .back-to-top-button:hover {
+    color: #ffffff;
+  }
+   */
+
+
+   /* BackToTop.css */
+.back-to-top {
+    position: fixed;
+    bottom: 65px;
+    right: 50px;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
+
+/* Button styles */
+.back-to-top-button {
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    /* background: linear-gradient(45deg, #ff6b6b, #ff3a3a); */
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Button hover effect */
+.back-to-top-button:hover {
+    background: linear-gradient(45deg, #ff3a3a, #ff6b6b);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+/* Button active effect */
+.back-to-top-button:active {
+    transform: translateY(1px);
+}
+
+/* Button visibility */
+.back-to-top.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .back-to-top-button {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+}

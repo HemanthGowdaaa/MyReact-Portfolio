@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e3d7d6;
+    color: #333;
+  }
+  .content-title{
+    font-family: "Tenor Sans", sans-serif;
+    
+  }
+  .certs-header {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    font-family: "Tenor Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color:#3d312c;
+  }
+
+  .certs-header-div{
+    font-size: 3.75rem;
+  }
+  .certs-body-div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 40px;
+  }
+  .content-title{
+    font-family: "Tenor Sans", sans-serif;
+
+  }
+
+  .cert-card {
+    width: 30%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none; /* Remove border */
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); /* Ensure shadow is subtle and consistent */
+    margin-bottom: 30px;
+    flex: 0 0 30%;
+    background-color: #fff; /* Ensure consistent background color */
+    transition: transform 0.3s ease;
+  }
+
+  .cert-card:hover {
+    transform: translateY(-10px);
+  }
+
+  .cert-header {
+    margin: 0;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .logo_img {
+    margin: 3px;
+    width: auto;
+    height: 100px;
+  }
+
+  .cert-body {
+    margin: 0;
+  }
+
+  .cert-body-title {
+    font-family: "Tenor Sans", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .cert-body-subtitle {
+    font-family: "Tenor Sans", sans-serif;
+    /* font-family: "Google Sans Regular"; */
+    font-size: 18px;
+    color: #808080;
+    margin: 10px;
+  }
+
+  .content {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #fff; /* Consistent background */
+    border-radius: 5px; /* Ensure border-radius remains consistent */
+  }
+
+  .content .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .content:hover .content-overlay {
+    opacity: 1;
+  }
+
+  .content-details {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .content:hover .content-details {
+    opacity: 1;
+  }
+
+  .content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    font-family: "Google Sans Regular";
+    text-transform: uppercase;
+  }
+
+  /* Media Queries for responsiveness */
+  @media (max-width: 1380px) {
+    .certs-header {
+      font-size: 3.75rem;
+    }
+
+    .cert-card {
+      width: 45%;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .cert-card {
+      width: 48%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .cert-card {
+      width: 100%;
+      margin: 20px 10px;
+      padding: 0; /* Ensure no padding adds space */
+    }
+
+    .certs-header {
+      font-size: 30px;
+    }
+
+    .certs-body-div {
+      display: block;
+      padding: 0 10px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .cert-card {
+      width: 90%;
+      margin: 25px 15px;
+      padding: 0;
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1); /* Maintain subtle shadow */
+      border-radius: 5px; /* Consistent radius */
+    }
+
+    .certs-body-div {
+      padding: 0;
+    }
+
+    .certs-header {
+      font-size: 25px;
+      margin-bottom: 15px;
+    }
+
+    .cert-body-title {
+      font-size: 18px;
+    }
+
+    .cert-body-subtitle {
+      font-size: 16px;
+    }
+
+    .logo_img {
+      height: 80px;
+    }
+
+    .content-details h3 {
+      font-size: 16px;
+    }
+  }

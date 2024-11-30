@@ -1,0 +1,262 @@
+/* Main Contact Body */
+
+
+.contact-body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e3d7d6;
+  min-height: 100vh; /* Full height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center text content */
+}
+
+/* Header */
+.header {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 3.75rem;
+  font-weight: bold;
+  color: #3d312c;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* Contact Container */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  background-color: #f4f4f9;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 75%;
+  max-width: 900px;
+  height: auto; /* Allow the height to adjust based on content */
+  margin: 0 20px;
+  margin-bottom: 50px;
+  overflow: hidden; /* Hide anything that overflows */
+}
+
+/* Flipper Container */
+.flipper {
+  width: 100%;
+  position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+/* Front and Back Sides */
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  backface-visibility: hidden;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Flip Effect */
+.flip-container.flipped .flipper {
+  transform: rotateY(180deg);
+}
+
+/* Front Side (Contact Form) */
+.front {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  max-height: 80vh; /* Limit the height */
+  overflow-y: auto; /* Allow scrolling if the form content overflows */
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #3d312c;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #b89b82;
+  border-radius: 8px;
+}
+
+form input[type="submit"] {
+  width: 50%;
+  padding: 12px;
+  background-color: #3d312c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Back Side (Success Message) */
+.back {
+  background-color: #f4f4f9;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+}
+
+.back h2 {
+  font-size: 2rem;
+  color: #3d312c;
+  margin-bottom: 1rem;
+}
+
+.back p {
+  font-size: 1.2rem;
+  color: #4c3c94;
+}
+
+/* Contact Info Section */
+.contact-info {
+  flex: 1;
+  padding: 3rem;
+  text-align: left; /* Align text to left */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.contact-item .icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.contact-item-header {
+  font-weight: bold;
+  font-size: xx-large;
+  color: #3d312c;
+}
+
+.contact-item p,
+.contact-item a {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #4c3c94;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* Button Center */
+.button-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.main-button {
+  background-color: #3d312c;
+  color: white;
+  font-weight: bold;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.main-button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .header {
+    font-size: 2.5rem;
+  }
+
+  .contact-item-header {
+    font-size: 1.8rem;
+  }
+
+  .contact-item p,
+  .contact-item a {
+    font-size: 1rem;
+  }
+
+  .main-button {
+    width: 70%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 1.5rem;
+    width: 90%;
+  }
+
+  form {
+    padding: 2rem;
+  }
+
+  .header {
+    font-size: 2rem;
+  }
+
+  .contact-item-header {
+    font-size: 1.5rem;
+  }
+
+  .contact-item a {
+    font-size: 0.9rem;
+  }
+
+  .main-button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contact-item p,
+  .contact-item a {
+    font-size: 1.5rem;
+  }
+
+  .contact-item-header {
+    font-size: 5rem;
+  }
+}

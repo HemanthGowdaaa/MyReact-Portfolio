@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <style>
+        /* Text animation */
+        @keyframes text-anim {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        #dex-sign {
+            display: inline-block;
+            margin: 30px 10px 15px 10px;
+            font-size: 2em;
+            font-family: 'Raleway', sans-serif;
+            color: #2C2C2C;
+            opacity: 0;
+            animation: text-anim 3.5s 0.2s forwards;
+        }
+
+        #dex-sign.white {
+            color: #FFF;
+        }
+
+        /* Hover effect */
+        #dex-sign:hover {
+            opacity: 0.7;
+            filter: invert(30%) brightness(80%) sepia(100%) contrast(110%) saturate(953%) hue-rotate(165deg);
+        }
+        </style>
+    </head>
+    <body>
+
+    <section>
+        <div class="quote">
+            <cite>
+                Hemanth Kumar
+            </cite>
+            <span id="replay">Replay</span>
+            <a id="dex-sign" href="http://drygiel.com" target="_blank">Hemanth Kumar</a>
+        </div>
+    </section>
+    <footer>
+        Want your own signature? Contact me at <a href="mailto:veratrion@gmail.com">veratrion@gmail.com</a>
+    </footer>
+
+    </body>
+</html>
