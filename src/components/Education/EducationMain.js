@@ -2,7 +2,7 @@
 import React from 'react';
 import DegreeCard from './DegreeCard';
 import './DegreeCard.css';
-import eastWestLogo from './image.png';
+import eastWestLogo from './eastWest_logo.webp';
 
 const EducationMain = () => {
   return (

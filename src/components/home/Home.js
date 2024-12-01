@@ -2,7 +2,7 @@ import React from 'react';
 // import BackToTop from '../../components/ExperienceSection/BackToTop';
 import "./Home.css"
 // import homeImage from "/Users/hemanth/Desktop/react-portfolio/src/assets/images/Home.png"; 
-import homeImage from "../../assets/images/Home.png"; 
+import homeImage from "../../assets/images/Home.webp"; 
 import SkillSection from '../skillSection/SkillSection';
 
 function Home(){

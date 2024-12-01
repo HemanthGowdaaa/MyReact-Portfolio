@@ -2,11 +2,11 @@
 import React from "react";
 import "./ProjectGallery.css";
 import cafeSvg from "./two.webp"
-import tataMotorSvg from "./tatamotors2_img.png"
-import litter_img from "./litter_img.jpg"
+import tataMotorSvg from "./tatamotors2_img.webp"
+import litter_img from "./litter_img.webp"
 import fashion_img from "./Fashion_image.webp"
 import portfolio_img from "./portfolio2_img.webp"
-import analysis_img from "./analysis_img.png"
+import analysis_img from "./analysis_img.webp"
 
 
 

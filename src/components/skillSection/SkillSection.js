@@ -22,9 +22,9 @@ import seabornIcon from '@iconify-icons/logos/seaborn-icon';
 
 
 
-import full_stack_img from './full_stack_img.png';
-import analysis_img from './analysis_img.png';
-import ml_img from './ml_img.png';
+import full_stack_img from './full_stack_img.webp';
+import analysis_img from './analysis_img.webp';
+import ml_img from './ml_img.webp';
 import './SkillSection2.css'; // External CSS file for styles
 
 

@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import './Certifications.css'; // Adjust the path as necessary
 import EducationMain from '../../components/Education/EducationMain';
-import stanfordLogo from '../../assets/images/stanford_logo.png';
-import anudipLogo from '../../assets/images/AnudipLogo2.png';
-import metaLogo from '../../assets/images/metaLogo.png';
+import stanfordLogo from '../../assets/images/stanford_logo.webp';
+import anudipLogo from '../../assets/images/AnudipLogo2.webp';
+import metaLogo from '../../assets/images/metaLogo.webp';
 // import deeplearningLogo from '../../assets/images/deeplearning_ai_logo.png';
-import ethnotechLogo from '../../assets/images/EthnotechLogo.png';
-import mtfLogo from '../../assets/images/MTFLogo.png';
-import udemyLogo from '../../assets/images/udemy_logo.png';
-import hackerRankLogo from '../../assets/images/hackerRankLogo.png';
+import ethnotechLogo from '../../assets/images/EthnotechLogo.webp';
+import mtfLogo from '../../assets/images/MTFLogo.webp';
+import udemyLogo from '../../assets/images/udemy_logo.webp';
+import hackerRankLogo from '../../assets/images/hackerRankLogo.webp';
+
 const Certificate = () => {
   const [certifications, setCertifications] = useState([]);
 
