@@ -4,7 +4,7 @@
     font-family: 'Agustina Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Agustina Regular'), url('/Users/hemanth/Desktop/react-portfolio/src/assets/fonts/agustina-webfont/Agustina.woff') format('woff');
+    src: local('Agustina Regular'), url('./Agustina.otf') format('otf');
     }
 
 
