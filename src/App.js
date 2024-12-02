@@ -1,15 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import BackToTop from './components/BackToTop/BackToTop';
+import './App.css';
+import Home from './components/home/Home';
 // import Certificate from '/Users/hemanth/Desktop/react-portfolio/src/pages/Certifications/Certifications'; // Adjust path as necessary
 import Certificate from '../src/pages/Certifications/Certifications';
-import './App.css';
+
 import Header from './components/header/Header';
-import Home from './components/home/Home';
+
 import ContactSection from './pages/ContactSection/ContactSection1';
 import Footer from './components/footer/Footer';
 import ProjectGallery from './pages/projectGallery/ProjectGallery';
 // import Experience from './components/ExperienceSection/Experience';
-import BackToTop from './components/BackToTop/BackToTop';
+
 import Experience from './components/Experience/Experience';
 
 function App() {
@@ -17,7 +20,9 @@ function App() {
     <div className="App">
       
       <Router>
+      <BackToTop />
       <Header className="Header" />
+      
       <Routes>
       
                 <Route path="/" element={<Home />} />
@@ -29,7 +34,7 @@ function App() {
                 <Route path="/Experience" element={<Experience />}/>
              
       </Routes>
-            <BackToTop />
+            
             <Footer/>
             </Router>
             

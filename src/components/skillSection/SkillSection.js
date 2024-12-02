@@ -78,9 +78,9 @@ const skillsData = [
     title: 'Machine Learning',
     image: ml_img,
     description: [
-      'Proficient in building machine learning models using Scikit-Learn, Keras,',
-      'and Pandas. Experience in supervised and unsupervised learning models',
-      'for data prediction and classification.'
+      'Proficient in building and deploying machine learning models for real-world applications.',
+      'Experience in supervised and unsupervised learning models for data prediction and classification.',
+      'Hands-on experience with popular frameworks like Scikit-Learn and TensorFlow.'
     ],
     icons: [
       { icon: pythonIcon, tooltip: 'Python' },

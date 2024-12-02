@@ -55,8 +55,8 @@ const projects = [
     projectName: "Personal Portfolio",
     projectDesc: "A React Portfolio is an interactive, responsive website built with React.js to showcase projects, skills, and achievements.",
     tags: ["React","Javascript", "HTML/CSS"],
-    code: "https://github.com/HemanthGowdaaa/react-portfolio.git",
-    demo: "https://github.com/HemanthGowdaaa/react-portfolio.git",
+    code: "https://github.com/HemanthGowdaaa/MyReact-Portfolio.git",
+    demo: "https://github.com/HemanthGowdaaa/MyReact-Portfolio.git",
     image: portfolio_img,
   },
  
