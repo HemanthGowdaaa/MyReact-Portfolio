@@ -16,7 +16,7 @@ function Header() {
 
   return (
     <div className="header">
-      <a href="/" className="logo">
+      <a href="/Home" className="logo">
         <span className="logo-name" style={fontStyle}>HK</span>
       </a>
       <input className="menu-btn" type="checkbox" id="menu-btn" />
@@ -24,11 +24,11 @@ function Header() {
         <span className="navicon"></span>
       </label>
       <ul className="menu">
-        <li><Link to="/" onClick={closeMenu}>Home</Link></li>
-        <li><Link to="/certificates" onClick={closeMenu}>Education</Link></li>
+        <li><Link to="/Home" onClick={closeMenu}>Home</Link></li>
+        <li><Link to="/Education" onClick={closeMenu}>Education</Link></li>
         <li><Link to="/Experience" onClick={closeMenu}>Experience</Link></li>
         <li><Link to="/Projects" onClick={closeMenu}>Projects</Link></li>
-        <li><Link to="/contact" onClick={closeMenu}>Contact Me</Link></li>
+        <li><Link to="/Contact" onClick={closeMenu}>Contact Me</Link></li>
       </ul>
     </div>
   );

@@ -19,7 +19,7 @@ function Home(){
                 <div className="nameTxt"><b>I’m Hemanth Kumar</b></div>
                 <div className="introTxt" style={{textAlign:'left'}}>
                     A passionate individual who always thrives to work on end-to-end products which develop sustainable 
-                    and scalable social and technical systems to create impact.
+                    and scalable systems to create impact.
                 </div>
             </div>
         </div>

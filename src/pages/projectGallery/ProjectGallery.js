@@ -36,8 +36,8 @@ const projects = [
     projectName: "Litter Management",
     projectDesc: "A computer vision-based system that detects and tracks littering from vehicles in real-time, storing incident data like timestamps and vehicle details in database for monitoring and reporting.",
     tags: ["Python", "SQLite", "OpenCV"],
-    code: "https://github.com/HemanthGowdaaa/Litter_detection_using_openCV.git",
-    demo: "https://github.com/HemanthGowdaaa/Litter_detection_using_openCV.git",
+    code: "https://github.com/HemanthGowdaaa/Littering_detection_using_opencv.git",
+    demo: "https://github.com/HemanthGowdaaa/Littering_detection_using_opencv.git",
     image: litter_img,
   },
 

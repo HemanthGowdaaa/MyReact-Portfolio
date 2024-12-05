@@ -20,23 +20,22 @@ function App() {
     <div className="App">
       
       <Router>
-      <BackToTop />
-      <Header className="Header" />
       
+      <Header className="Header" />
+      <BackToTop />
       <Routes>
       
                 <Route path="/" element={<Home />} />
-                
-                <Route path="/certificates" element={<Certificate />} />
+                <Route path="/Home" element={<Home />} />
+                <Route path="/Education" element={<Certificate />} />
                 
                 <Route path="/Projects" element={<ProjectGallery />} /> 
-                <Route path="/contact" element={<ContactSection />} /> 
+                <Route path="/Contact" element={<ContactSection />} /> 
                 <Route path="/Experience" element={<Experience />}/>
              
       </Routes>
-            
-            <Footer/>
-            </Router>
+      <Footer/>
+      </Router>
             
             
     </div>

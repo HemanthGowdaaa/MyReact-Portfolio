@@ -32,4 +32,4 @@ const EducationMain = () => {
   );
 };
 
-export default Educat
+export default EducationMain;
